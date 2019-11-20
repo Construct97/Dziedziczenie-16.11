@@ -1,0 +1,17 @@
+package com.company;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Początek programu");
+        Student student = new Student(18 , "Tomek");
+        System.out.println("Imie uztkownika " + student.GetName());
+        student.SetName("Darek  ");
+        System.out.println("Imie uztkownika " + student.GetName());
+        Teacher teacher = new Teacher(30 , "jan" , "rodo");
+        System.out.println("Kontakt teacher that " + teacher.GetContactNumber());
+        System.out.println("Imie nauczyciela  " + teacher.GetName());
+        teacher.SetName("Maria");
+        System.out.println("Imie nauczyciela " + teacher.GetName());
+
+        teacher.SetAge(150);
+    }
+}

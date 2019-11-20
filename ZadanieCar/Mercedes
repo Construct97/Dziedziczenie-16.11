@@ -1,0 +1,12 @@
+package com.company;
+
+public class Mercedes extends ZadanieCar {
+
+
+    public Mercedes(String kolor, double pojemnosc, int ilo_drzwi){
+        super(kolor, pojemnosc, ilo_drzwi);
+
+
+    }
+
+}

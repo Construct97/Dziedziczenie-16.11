@@ -1,0 +1,15 @@
+package com.company;
+public class Teachers extends Uniwer implements Vips  {
+    private String _kontakt;
+
+    Teacher(int age, String name , String kontakt) {
+        super(age, name);
+
+        _kontakt = contact;
+    }
+
+    @Override
+    public String GetContactNumber() {
+        return _kontakt;
+    }
+}

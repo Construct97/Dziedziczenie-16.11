@@ -1,0 +1,21 @@
+package com.company;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Jak masz na imię?");
+        String firstName = scan.nextLine();
+        String two = scan.nextLine();
+        String three = scan.nextLine();
+        String four = scan.nextLine();
+        System.out.println(firstName);
+        System.out.println(two);
+        System.out.println(three);
+        System.out.println(four);
+
+    }
+}

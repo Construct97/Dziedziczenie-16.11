@@ -1,0 +1,21 @@
+package com.company;
+
+public abstract class ZadanieCar {
+    private String kolor;
+    private double pojemnosc;
+    private int ilo_drzwi;
+
+    public ZadanieCar(String kolor, double pojemnosc, int ilo_drzwi) {
+
+        this.kolor = kolor;
+        this.pojemnosc = pojemnosc;
+        this.ilo_drzwi = ilo_drzwi;
+    }
+
+    public void setIlo_drzwi(int ilo_drzwi) {
+        this.ilo_drzwi = ilo_drzwi;
+    }
+
+
+}
+}
